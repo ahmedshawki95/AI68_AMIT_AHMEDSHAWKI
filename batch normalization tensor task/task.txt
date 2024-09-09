@@ -1,0 +1,23 @@
+batch normalization
+
+for this task kindly fill in the table below and design your own architecture
+
+
+relu
+tanh
+
+increase layers
+
+
+optimeters
+Adam
+SGD
+
+metrrics
+
+
+batch size
+
+
+
+table for changes
