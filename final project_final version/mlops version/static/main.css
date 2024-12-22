@@ -1,0 +1,90 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #605e5b;
+
+}
+
+.logoName {
+  color: white !important;
+  font-family: auto !important;
+  font-size: 2rem !important;
+  margin-left: 6%;
+}
+
+.cover {
+  background-image: url("./cover3.jpeg");
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardTitle {
+  text-align: center;
+  margin-bottom: 5%;
+  font-family: auto;
+
+}
+
+.infoCard {
+  background-color: black;
+
+  opacity: 0.8;
+  border: 10px black solid;
+  color: white;
+  padding: 1%;
+  border-radius: 3%;
+
+}
+
+.form-check {
+  display: inline-block !important;
+
+}
+
+.No {
+  margin-left: 10%;
+}
+
+.resultCard {
+  background-color: rgb(0, 0, 0);
+
+  opacity: 0.6;
+  border: 10px black solid;
+  color: white;
+  padding: 3%;
+  border-radius: 3%;
+  margin: auto;
+  margin-top: 10% !important;
+  text-align: center;
+}
+
+.result {
+  font-weight: bold;
+  font-size: 30px;
+  color: #10e110;
+  margin-left: 2%;
+
+}
+
+.customer {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+@media (min-width: 375px)and (max-width:1000px) {
+  .resultCard {
+    margin-top: 55% !important;
+  }
+
+  .No {
+    margin-left: 0% !important;
+  }
+}

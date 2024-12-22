@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>ISO 50001 & ISO 90001 Chat Bot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="static\main.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand logoName" href="#">ISO 50001 & ISO 90001 ChatBot</a>
+    </div>
+  </nav>
+
+  <div class="container-fluid cover">
+    <div class="row">
+      <div class="col-8 m-auto mt-1 infoCard">
+        <h4 class="cardTitle">Start Conversation</h4>
+
+        <!---left--------->
+        <form method="POST">
+          <div class="form-group row">
+            <div class="col-6">
+              <!------User---------->
+              <div class="form-group mb-3 row">
+                <label for="inputName" class="col-sm-5 col-form-label">User : </label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="inputName" name="user" placeholder="start conversation" />
+                </div>
+              </div>
+              <!------BOt---------->
+              <div class="form-group mb-3 row">
+                <label for="inputAdult" class="col-sm-5 col-form-label">ISO Bot : </label>
+                <label for="inputAdult" class="col-sm-5 col-form-label">{{prediction_text}}</label>
+
+              </div>
+
+
+
+            </div>
+            <div class="form-group row">
+              <div class="col-md-1 m-auto">
+                <button type="submit" class="btn btn-primary m-auto">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
